@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="./server.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script>
+    // var ws = new WebSocket("ws://localhost:3000");
+    //
+    // ws.onopen = function (event){
+    //     ws.send("client message: hi!")
+    // }
+    // // 서버로 부터 메시지를 수신한다
+    // ws.onmessage = function(event) {
+    //     console.log("Server message: ", event.data);
+    // }
+    //
+    // // error event handler
+    // ws.onerror = function(event) {
+    //     console.log("Server error message: ", event.data);
+    // }
+    var socket = io();
+</script>
+</body>
+</html>
